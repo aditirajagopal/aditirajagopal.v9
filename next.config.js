@@ -19,20 +19,4 @@ module.exports = withBundleAnalyzer({
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   }
-}), 
-
-async redirects() {
-    return [
-      {
-        source: '/home',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/dictionary/:slug',
-        destination: '/dictionary/?keyword=:slug',
-        permanent: true,
-      }
-    ]
-  },
-
+})
