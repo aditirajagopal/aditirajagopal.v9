@@ -18,7 +18,7 @@ module.exports = withBundleAnalyzer({
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    loader: 'akamai',
+    loader: 'cloudinary',
     path: '',
   },
   target: 'serverless'
