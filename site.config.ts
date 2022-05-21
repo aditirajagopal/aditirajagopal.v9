@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: '19200a54-4540-4d74-a2f6-6d5ed882ed7c',
+//  rootNotionSpaceId: '19200a54-4540-4d74-a2f6-6d5ed882ed7c',
 
   // basic site info (required)
   name: 'Aditi Rajagopal - Home',
