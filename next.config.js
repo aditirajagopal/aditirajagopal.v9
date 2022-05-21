@@ -20,5 +20,6 @@ module.exports = withBundleAnalyzer({
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     loader: 'akamai',
     path: '',
-  }
+  },
+  target: 'serverless'
 })
