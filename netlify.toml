@@ -6,5 +6,5 @@
   package = "@netlify/plugin-nextjs"
 
 [functions]
-  external_node_modules = ["sharp"]
+  external_node_modules = [ "@ampproject/toolbox-optimizer", "sharp"]
   included_files = ["!node_modules/chrome-aws-lambda/bin/chromium.br"]
