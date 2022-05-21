@@ -20,6 +20,5 @@ module.exports = withBundleAnalyzer({
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     loader: 'cloudinary',
     path: '',
-  },
-  target: 'serverless'
+  }
 })
